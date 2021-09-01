@@ -1,0 +1,31 @@
+{
+  "name": "@getsafle/blockchain-controller",
+  "version": "1.0.0",
+  "description": "Safle blockchain controller to manage and set the environment for different chains and their networks.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm-run-all --silent test-*",
+    "test-audit": "npm audit --audit-level=moderate",
+    "test-lint": "eslint ./src/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getsafle/blockchain-controller.git"
+  },
+  "author": "safle",
+  "license": "MIT",
+  "contributors":[ 
+    {
+    "name": "Arjun",
+    "email": "arjun@getsafle.com"
+  }
+],
+"keywords": [
+  "network",
+  "chain"
+],
+  "homepage": "https://github.com/getsafle/blockchain-controller#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
