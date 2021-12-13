@@ -1,6 +1,6 @@
 # **Safle Blockchain Controller**
 
-Safle Blockchain Controller SDK
+Safle Blockchain Controller is used to manage and set the environments of different chains and their networks. This SDK supports both EVM and non-EVM chains.
 
 
 ## **Installation and Usage**
