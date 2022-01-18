@@ -10,25 +10,23 @@ async function getNetworks() {
 
     let networks = [];
 
-    response.forEach((data) => { networks.push({ chainName: data.name, network: data.network }) })
-
-    return { response: networks };
+    return { response };
 }
 
-async function getChainDetails(chain, network) {
+async function getChainDetails(chain) {
     const { response, error } = await helper.getRequest(config.EVM_NETWORKS_API);
 
     if (error) {
         return { error };
     }
 
-    let chainData = response.filter((data) => { return (data.name == chain && data.network == network) });
+    let chainData = response[chain];
 
-    if (chainData.length == 0) {
+    if (chainData === undefined) {
         return { error: 'This chain or network doesn\'t exist' };
     }
 
-    return { response: { chain, network, chainId: chainData[0].chainId, rpc: chainData[0].rpc, nativeCurrency: chainData[0].nativeCurrency.name, currencySymbol: chainData[0].nativeCurrency.symbol, decimals: chainData[0].nativeCurrency.decimals } };
+    return { response: chainData };
 }
 
 module.exports = {
