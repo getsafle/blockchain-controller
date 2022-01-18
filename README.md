@@ -22,9 +22,8 @@ Get Networks
 `const networks = await safleBlockchainController.getNetworks();`
 
 
-Get Network Details
+Get all the network details of a specific chain
 
-`const networkDetails = await safleBlockchainController.getChainDetails(chain, network);`
+`const networkDetails = await safleBlockchainController.getChainDetails(chain);`
 
 * `chain` - Chain name
-* `network` - Network
