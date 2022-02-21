@@ -18,3 +18,9 @@
 * Updated the structure of the data.
 * Methods only returns the data of EVM networks supported by the vault.
 * `getChainDetails(chain)` will return the list of all the networks of that particular chain and the network details.
+
+### 1.1.0 (2022-02-21)
+
+##### Updated chain data url
+
+* Updated the chain data url.
