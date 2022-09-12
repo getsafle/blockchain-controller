@@ -24,3 +24,9 @@
 ##### Updated chain data url
 
 * Updated the chain data url.
+
+### 1.1.1 (2022-09-12)
+
+##### Updated README
+
+* Updated the README file with the latest functional & non-functional documentation.
