@@ -1,6 +1,6 @@
 {
   "name": "@getsafle/blockchain-controller",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Safle Blockchain Controller is used to manage and set the environments of different chains and their networks.",
   "main": "src/index.js",
   "scripts": {
