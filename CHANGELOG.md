@@ -30,3 +30,9 @@
 ##### Updated README
 
 * Updated the README file with the latest functional & non-functional documentation.
+
+### 1.1.2 (2022-12-19)
+
+##### Added a fallback API to get the list of chains
+
+* Added a fallback API to get the list of chains
